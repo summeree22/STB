@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 
 
-COPY requirements.txt ./project/
+COPY /project/requirements.txt ./
 
 RUN pip install -r requirements.txt
 
